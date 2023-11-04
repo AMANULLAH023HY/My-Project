@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convert Fahrenheit To celsius</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <form id="tempCalc" onsubmit="calculateTemp(); return false">
+        <label for="temp" class="bold">Temperature Converter</label> <br>
+        <span class="bold">Degrees:</span> <input name="temp" id="temp" type="number">
+        <span class="bold">Type:</span> <select name="" id="temp-diff">
+            <option value="1">---select---</option>
+            <option value="2">°Celsius</option>
+            <option value="3">°Fahrenheit</option>
+        </select><br>
+        <input name="temp" type="submit">
+
+        <br>
+        <span class="bold">Result:</span> <span id="resultContainer"></span>
+    </form>
+    <script src="/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+form {
+    
+    background-color: rgb(145, 121, 5);
+    padding: 80px;
+    width: 50%;
+    margin: 100px auto;
+    text-align: center;
+    border-radius: 20px;
+ }
+ 
+ #tempCalc label {
+    font-size: 30px;
+ }
+ 
+ #temp {
+    border: none;
+    padding: 10px;
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 30px;
+    border-bottom: 2px solid rgb(5, 1, 29);
+    border-radius: 5px;
+    
+ }
+ 
+ #temp-diff {
+    height: 50px;
+    width: 200px;
+    border: none;
+    margin-top: 20px;
+    border-bottom: 2px solid rgb(6, 0, 26);
+    vertical-align: top;
+    border-radius: 5px;
+ }
+ 
+ 
+ [type="submit"] {
+    height: 35px;
+    margin: 20px;
+    width: 300px;
+    font-size: 25px;
+    border: none;
+    background-color: rgba(0, 255, 85, 0.858);
+    color: white;
+    border-radius: 10px;
+ }
+ 
+ #resultContainer {
+    
+    font-size: large;
+    font-weight: bolder;
+  
+ }
+
+ .bold{
+    font-size: large;
+    font-weight: bolder;
+ }
